@@ -86,7 +86,7 @@ const ContactUs: React.FC = () => {
   }, []);
 
   return (
-    <section className="relative w-full px-5 py-12 mx-auto md:px-12 lg:px-24 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/shopwall.jpg')", minHeight: '110vh' }}>
+    <section className="relative w-full px-5 py-12 mx-auto md:px-12 lg:px-24 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/shire.jpg')", height: '100vh', backgroundSize: 'cover' }}>
       <div className="absolute inset-0 bg-black opacity-50"></div> {/* Semi-transparent overlay */}
       <div className="relative z-10 text-white">
         <div className="flex justify-center items-center h-52">
