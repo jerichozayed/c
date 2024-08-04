@@ -1,3 +1,4 @@
+// components/Navbar.tsx
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
@@ -44,6 +45,9 @@ const Navbar: React.FC = () => {
           <Link href="/contact" legacyBehavior>
             <a className="hover:text-gray-300">CONTACT</a>
           </Link>
+          <Link href="/consent-form" legacyBehavior>
+            <a className="hover:text-gray-300">CONSENT FORM</a>
+          </Link>
         </div>
         <div className="md:hidden flex items-center">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
@@ -69,6 +73,9 @@ const Navbar: React.FC = () => {
           </Link>
           <Link href="/contact" legacyBehavior>
             <a className="block py-2 hover:text-gray-300" onClick={toggleMenu}>CONTACT</a>
+          </Link>
+          <Link href="/consent-form" legacyBehavior>
+            <a className="block py-2 hover:text-gray-300" onClick={toggleMenu}>CONSENT FORM</a>
           </Link>
         </div>
       )}
