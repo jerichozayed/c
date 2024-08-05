@@ -34,21 +34,10 @@ const ConsentForm: React.FC = () => {
     }
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    try {
-      const response = await fetch('http://localhost:3001/submit-consent-form', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
-      const result = await response.text();
-      console.log(result);
-    } catch (error) {
-      console.error('Error submitting form:', error);
-    }
+    console.log(formData);
+    // Handle form submission logic here
   };
 
   return (

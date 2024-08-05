@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 
 interface SVGProps {
   text: string;
-  className?: string; // Add the className prop
+  className?: string;
 }
 
 const SVG: React.FC<SVGProps> = ({ text, className }) => {
@@ -20,6 +20,8 @@ const SVG: React.FC<SVGProps> = ({ text, className }) => {
       }
 
       .svg-wrapper text {
+        font-size: 8vw; /* Use viewport width for responsive text size */
+        max-width: 100%;
         opacity: 0;
         stroke-width: 2;
         stroke: #4477C8;
@@ -90,9 +92,9 @@ const SVG: React.FC<SVGProps> = ({ text, className }) => {
   }, []);
 
   return (
-    <div className={`flex justify-center items-center h-full w-full ${className}`}>
+    <div className={`flex justify-center items-center h-full w-full mb-8 ${className}`}>
       <svg className="svg-wrapper" ref={svgRef}>
-        <text x="50%" y="50%" dy=".35em" textAnchor="middle" className="text-4xl sm:text-5xl md:text-6xl lg:text-[120px]">
+        <text x="50%" y="50%" dy=".35em" textAnchor="middle">
           {text}
         </text>
       </svg>

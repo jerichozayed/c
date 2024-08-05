@@ -6,13 +6,13 @@ import Navbar from '../components/Navbar';
 import SVGText from '../components/SVG';
 
 const artists = [
-  { name: 'John', image: '/John/john.jpg', description: 'With over a decade of tattoo experience and countless hours perfecting his craft, John is dedicated to providing a unique and friendly experience as soon as you enter our studio.', photos: ['/John/john1.jpg', '/John/john2.jpg, /John/john3.jpg', '/John/john4.jpg, /John/john5.jpg', '/John/john6.jpg'] },
-  { name: 'Abby', image: '/Abby/abby.jpg', description: 'Artist description for Abby goes here.' },
-  { name: 'Laura', image: '/Laura/laura.jpg', description: 'Artist description for Laura goes here.' },
-  { name: 'Dan', image: '/Dan/dan.jpg', description: 'Artist description for Dan goes here.', photos: ['/Dan/dan1.jpg', '/Dan/dan2.jpg'] },
-  { name: 'Caleb', image: '/Caleb/caleb.jpg', description: 'Artist description for Caleb goes here.' },
-  { name: 'Elijah', image: '/Elijah/elijah.jpg', description: 'Artist description for Elijah goes here.' },
-  { name: 'Sam', image: '/Sam/sam.jpg', description: 'Artist description for Sam goes here.' },
+  { name: 'John', image: '/Artists/John/john.jpg', description: 'With over a decade of tattoo experience and countless hours perfecting his craft, John is dedicated to providing a unique and friendly experience as soon as you enter our studio.', photos: ['/Artists/John/john1.jpg', '/Artists/John/john2.jpg', '/Artists/John/john3.jpg', '/Artists/John/john4.jpg', '/Artists/John/john5.jpg', '/Artists/John/john6.jpg', '/Artists/John/john7.jpg', '/Artists/John/john8.jpg', '/Artists/John/john9.jpg'] },
+  { name: 'Abby', image: '/Artists/Abby/abby.jpg', description: 'Artist description for Abby goes here.' },
+  { name: 'Laura', image: '/Artists/Laura/laura.jpg', description: 'Artist description for Laura goes here.' },
+  { name: 'Dan', image: '/Artists/Dan/dan.jpg', description: 'Artist description for Dan goes here.', photos: ['/Artists/Dan/dan1.jpg', '/Artists/Dan/dan2.jpg'] },
+  { name: 'Caleb', image: '/Artists/Caleb/caleb.jpg', description: 'Artist description for Caleb goes here.' },
+  { name: 'Elijah', image: '/Artists/Elijah/elijah.jpg', description: 'Artist description for Elijah goes here.' },
+  { name: 'Sam', image: '/Artists/Sam/sam.jpg', description: 'Artist description for Sam goes here.' },
 ];
 
 const imageSize = 192;
